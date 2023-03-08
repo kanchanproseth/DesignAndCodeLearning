@@ -19,6 +19,16 @@
 		D131891E29A87EE900B991F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D131891D29A87EE900B991F4 /* Assets.xcassets */; };
 		D131892129A87EE900B991F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D131892029A87EE900B991F4 /* Preview Assets.xcassets */; };
 		D131892829A87FDD00B991F4 /* ZStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D131892729A87FDD00B991F4 /* ZStackContentView.swift */; };
+		D15426C029B92BCA0030562F /* MaskAndTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426BF29B92BCA0030562F /* MaskAndTransparency.swift */; };
+		D15426C229B92DEB0030562F /* ClipShapeAndSmooth Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426C129B92DEB0030562F /* ClipShapeAndSmooth Corners.swift */; };
+		D15426C429B92EA40030562F /* TabViewPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426C329B92EA40030562F /* TabViewPagination.swift */; };
+		D15426C629B92F020030562F /* AnimationStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426C529B92F020030562F /* AnimationStates.swift */; };
+		D15426C829B92F860030562F /* ViewTransitionsAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426C729B92F860030562F /* ViewTransitionsAndAnimations.swift */; };
+		D15426CA29B930CE0030562F /* AnimationModifierAndTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426C929B930CE0030562F /* AnimationModifierAndTiming.swift */; };
+		D15426CC29B931580030562F /* TransformAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426CB29B931580030562F /* TransformAnimations.swift */; };
+		D15426CE29B9320F0030562F /* TapAnimationWithDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426CD29B9320F0030562F /* TapAnimationWithDelay.swift */; };
+		D15426D029B9389E0030562F /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426CF29B9389E0030562F /* LongPressGesture.swift */; };
+		D15426D229B939B20030562F /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15426D129B939B20030562F /* DragGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +45,16 @@
 		D131891D29A87EE900B991F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D131892029A87EE900B991F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D131892729A87FDD00B991F4 /* ZStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackContentView.swift; sourceTree = "<group>"; };
+		D15426BF29B92BCA0030562F /* MaskAndTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskAndTransparency.swift; sourceTree = "<group>"; };
+		D15426C129B92DEB0030562F /* ClipShapeAndSmooth Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipShapeAndSmooth Corners.swift"; sourceTree = "<group>"; };
+		D15426C329B92EA40030562F /* TabViewPagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPagination.swift; sourceTree = "<group>"; };
+		D15426C529B92F020030562F /* AnimationStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStates.swift; sourceTree = "<group>"; };
+		D15426C729B92F860030562F /* ViewTransitionsAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitionsAndAnimations.swift; sourceTree = "<group>"; };
+		D15426C929B930CE0030562F /* AnimationModifierAndTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModifierAndTiming.swift; sourceTree = "<group>"; };
+		D15426CB29B931580030562F /* TransformAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformAnimations.swift; sourceTree = "<group>"; };
+		D15426CD29B9320F0030562F /* TapAnimationWithDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAnimationWithDelay.swift; sourceTree = "<group>"; };
+		D15426CF29B9389E0030562F /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		D15426D129B939B20030562F /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,16 @@
 				D110773F29A9E89000CADB02 /* SFSymbolDemo.swift */,
 				D131891D29A87EE900B991F4 /* Assets.xcassets */,
 				D131891F29A87EE900B991F4 /* Preview Content */,
+				D15426BF29B92BCA0030562F /* MaskAndTransparency.swift */,
+				D15426C129B92DEB0030562F /* ClipShapeAndSmooth Corners.swift */,
+				D15426C329B92EA40030562F /* TabViewPagination.swift */,
+				D15426C529B92F020030562F /* AnimationStates.swift */,
+				D15426C729B92F860030562F /* ViewTransitionsAndAnimations.swift */,
+				D15426C929B930CE0030562F /* AnimationModifierAndTiming.swift */,
+				D15426CB29B931580030562F /* TransformAnimations.swift */,
+				D15426CD29B9320F0030562F /* TapAnimationWithDelay.swift */,
+				D15426CF29B9389E0030562F /* LongPressGesture.swift */,
+				D15426D129B939B20030562F /* DragGesture.swift */,
 			);
 			path = DesignAndCodeLearning;
 			sourceTree = "<group>";
@@ -161,13 +191,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15426CE29B9320F0030562F /* TapAnimationWithDelay.swift in Sources */,
 				D110774029A9E89000CADB02 /* SFSymbolDemo.swift in Sources */,
 				D110774829A9F87B00CADB02 /* MaxWidthAndHeightDemo.swift in Sources */,
+				D15426C229B92DEB0030562F /* ClipShapeAndSmooth Corners.swift in Sources */,
+				D15426C429B92EA40030562F /* TabViewPagination.swift in Sources */,
+				D15426C629B92F020030562F /* AnimationStates.swift in Sources */,
 				D110774629A9F61C00CADB02 /* ImageViewDemo.swift in Sources */,
 				D110774229A9F0DE00CADB02 /* NavigationViewDemo.swift in Sources */,
 				D110774429A9F4CD00CADB02 /* ToolBarDemo.swift in Sources */,
 				D131891C29A87EE700B991F4 /* ContentView.swift in Sources */,
 				D110774A29A9FE4200CADB02 /* ShadowsAndOpacityDemo.swift in Sources */,
+				D15426CA29B930CE0030562F /* AnimationModifierAndTiming.swift in Sources */,
+				D15426C829B92F860030562F /* ViewTransitionsAndAnimations.swift in Sources */,
+				D15426D229B939B20030562F /* DragGesture.swift in Sources */,
+				D15426CC29B931580030562F /* TransformAnimations.swift in Sources */,
+				D15426C029B92BCA0030562F /* MaskAndTransparency.swift in Sources */,
+				D15426D029B9389E0030562F /* LongPressGesture.swift in Sources */,
 				D131891A29A87EE700B991F4 /* DesignAndCodeLearningApp.swift in Sources */,
 				D131892829A87FDD00B991F4 /* ZStackContentView.swift in Sources */,
 				D110773E29A9E69300CADB02 /* ShapeAndStroke.swift in Sources */,

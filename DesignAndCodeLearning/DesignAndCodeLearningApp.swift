@@ -11,7 +11,8 @@ import SwiftUI
 struct DesignAndCodeLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            TapAnimationWithDelay()
         }
     }
 }
